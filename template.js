@@ -15,7 +15,7 @@ exports.template = function (grunt, init, done) {
             type: 'node'
         },
         [
-            init.prompt('name', ''),
+            init.prompt('name'),
             init.prompt('description', 'Some magic typescript package'),
             init.prompt('version', '1.0.0'),
             init.prompt('author_name'),
@@ -53,6 +53,8 @@ exports.template = function (grunt, init, done) {
                 "grunt-istanbul": "^0.7.2",
                 "remap-istanbul": "^0.9.1"
             };
+
+            init.writePackageJSON('package.json', props);
 
             done();
         }

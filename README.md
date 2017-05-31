@@ -22,7 +22,10 @@
 
   Clone this repository to ~/.grunt-init and run
 
-      grunt-init grunt-init-typescript mynewtypescriptpackage && cd mynewtypescriptpackage && npm install
+      mkdir mynewtypescriptpackage
+      cd mynewtypescriptpackage
+      grunt-init grunt-init-typescript
+      npm install
 
   Afterwards you can start right away developing code in index.ts. To break up
   your code in different modules, use the subdirectory "lib".

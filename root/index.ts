@@ -2,7 +2,7 @@
  * {%= name %} - {%= description %}
  */
 
-// Import needed modules
+// import needed modules
 
 import * as winston from 'winston';
 import LoggerInstance = winston.LoggerInstance;
