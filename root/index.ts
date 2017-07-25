@@ -19,7 +19,7 @@ export class {%= classname %} {
     private _logger: LoggerInstance;
 
     constructor() {
-        this._logger = winston.loggers.get('flunkey.components');
+        this._logger = winston.loggers.get('{%= classname %}');
     }
 
 }
