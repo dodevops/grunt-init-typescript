@@ -54,6 +54,8 @@ exports.template = function (grunt, init, done) {
                 "remap-istanbul": "^0.9.1"
             };
 
+            props.keywords = props.keywords.split(/,/);
+
             init.writePackageJSON('package.json', props);
 
             done();
