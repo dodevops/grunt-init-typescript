@@ -1,4 +1,6 @@
   # grunt-init-typescript
+  
+  **Deprecated** Sorry, we don't work with Grunt-init anymore. As an alternative, please use [Yeoman](https://yeoman.io) now and our [DO! DevOps Yeoman typescript generator](https://www.npmjs.com/package/generator-dodevops-typescript) now.
 
   A heavy opinionated Typescript template.
 
